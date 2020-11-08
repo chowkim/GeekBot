@@ -15,8 +15,8 @@ class Plugin extends Bot {
       console.error('! 请先配置secrets:caiyun_gps,caiyun_key');
       return this.exit();
     }
-    this.API_KEY = caiyun_key;
-    this.GPS = caiyun_gps;
+    this.API_KEY = "HasxduaOmxzZFnsG";
+    this.GPS = 113.376979,23.130245@联我社区;
   }
 
   async run () {
